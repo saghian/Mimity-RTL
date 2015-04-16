@@ -158,7 +158,7 @@ ul.cart-content b {display: block; color: #3498db;}
 
 /* Slider */
 
-.slider {}
+.slider {direction: ltr;}
 
 
 
