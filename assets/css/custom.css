@@ -122,9 +122,17 @@ a, a:hover {text-decoration: none; }
 body {background-color: #ecf0f1; color: #333; font: 14px/22px tahoma; }
 a {color: #3498db;}
 a:hover {color: #2980b9}
+p {margin: 0 0 10px 0;}
 
 .margin-top-20 {margin-top: 20px;}
 .margin-bottom-10 {margin-bottom: 10px}
+.no-padding {padding: 0!important}
+
+.title {display: block; border-bottom: 3px solid #eee; padding-bottom: 8px; margin-bottom: 20px; color: #4c7ed3;}
+
+
+.thumbnail {border-radius: 0;}
+.btn {border-radius: 0;}
 /*  Index  */
 
 
@@ -140,11 +148,11 @@ ul.cart-content {min-width: 330px; }
 ul.cart-content b {display: block; color: #3498db;}
 
 .navbar-header {font: 20px/24px 'Roya',tahoma !important; }
-.navbar {background-color: #4a4a4a; color: #fff;}
+.navbar {background-color: #4a4a4a; color: #fff; margin-bottom: 0; border-radius: 0;}
 .navbar li a {font: 18px/24px 'Roya',tahoma ;color: #fff !important; }
 .navbar li a:hover {background-color: #428bca!important}
 
-
+.main-container {background: #fff; padding-top: 20px;}
 
 
 
