@@ -1,6 +1,7 @@
 # Mimity-RTL
 Mimity - Online Shop Template
 
-A simple online shop
+A simple online shop <br/>
 You can see demo online at the following link : http://demo.18maret.com/demo/mimity/v1.1/
+
 
