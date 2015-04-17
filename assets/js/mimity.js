@@ -39,6 +39,26 @@ $(function(){
 	        pager: false
 	    });
 	}
+        
+	if ($('.bxslider2').exist()) {
+	    $('.bxslider2').bxSlider({
+
+    slideMargin: 10,
+    minSlides: 2,
+    maxSlides: 3,
+    slideWidth: 300,
+    moveSlides: 1,
+    auto: true,
+    pause: 3000,
+    autoHover: true,
+    captions: true,
+    pager: false,
+    adaptiveHeight: true,
+//    controls: false,
+    
+	    });
+	}
+
 	if ($('.input-qty').exist()) {
 		$('.input-qty').TouchSpin();
 	}
@@ -61,4 +81,24 @@ $(function(){
 			$('.back-top').fadeOut();
 		}
 	});
+        
+if ($('.slider1').exist()) {
+$('.slider1').bxSlider({
+  minSlides: 3,
+  maxSlides: 4,
+  slideWidth: 170,
+  slideMargin: 10
+});
+}
+  
 })
+
+//$(document).ready(function(){
+//  $('.slider4').bxSlider({
+//    slideWidth: 300,
+//    minSlides: 2,
+//    maxSlides: 3,
+//    moveSlides: 1,
+//    slideMargin: 10
+//  });
+//});

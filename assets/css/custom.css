@@ -160,15 +160,25 @@ ul.cart-content b {display: block; color: #3498db;}
 
 .slider {direction: ltr;}
 .bx-wrapper img {width: 100%;}
+.bx-wrapper .bx-caption span {direction: rtl; text-align: right; font: 14px/22px tahoma;}
 
 
 
 
+/* Footer */
 
+footer {background: #313131; color: #eee;}
+footer h4 {border-bottom: 1px solid #5d5d5d; padding: 10px 0 10px 0; }
+footer .column ul {list-style: none; padding: 0;}
+footer .copyright {padding: 10px; color: #ccc;}
 
-
-
-
-
-
-
+.back-top {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  background: #555;
+  color: #fff;
+  height: 23px;
+}
