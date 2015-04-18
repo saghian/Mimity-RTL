@@ -12,11 +12,11 @@ $(function(){
 			$(this).removeClass('open');
 		}
 	});
-	$('.have-sub .panel-title').append('<i class="fa fa-caret-right"></i>');
+	$('.have-sub .panel-title').append('<i class="glyphicon glyphicon-triangle-left pull-left"></i>');
 	$('.have-sub a').on('click',function(){
-		$('.have-sub .panel-title a').not(this).next('i').removeClass('fa-caret-down');
-		$('.have-sub .panel-title a').not(this).next('i').addClass('fa-caret-right');
-		$(this).next('i').toggleClass('fa-caret-right fa-caret-down');
+		$('.have-sub .panel-title a').not(this).next('i').removeClass('glyphicon glyphicon-triangle-bottom pull-left');
+		$('.have-sub .panel-title a').not(this).next('i').addClass('glyphicon glyphicon-triangle-left pull-left');
+		$(this).next('i').toggleClass('glyphicon glyphicon-triangle-left pull-left glyphicon glyphicon-triangle-bottom pull-left');
 	});
 	$('.product-loader').hide();
 	$('.product-thumb-image a').on('click',function(){

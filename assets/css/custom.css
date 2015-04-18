@@ -114,7 +114,7 @@ table {
 
 /*My CSS reset*/
 
-a, a:hover {text-decoration: none; }
+a, a:hover {text-decoration: none !important; }
 
 
 /* Global Style */
@@ -128,14 +128,23 @@ p {margin: 0 0 10px 0;}
 .margin-bottom-10 {margin-bottom: 10px}
 .no-padding {padding: 0!important}
 
-.title {display: block; border-bottom: 3px solid #eee; padding-bottom: 8px; margin-bottom: 20px; color: #4c7ed3;}
+.title {display: block; border-bottom: 3px solid #eee; padding-bottom: 8px; margin-bottom: 20px; color: #4c7ed3;
+          font: 24px/22px 'Roya',tahoma;}
 
 
 .thumbnail {border-radius: 0;}
+.thumbnail:hover {border: 1px solid gray; }
+
+.prod-caption {background: #fbfbfb; border-top: 1px solid #ddd; }
+
 .btn {border-radius: 0;}
+
+
+/* Menu */
+
+.have-sub i {font-size: 10px; padding-top: 5px;}
+
 /*  Index  */
-
-
 
 
 .header-logotype {font: 24px/22px 'Roya'}
@@ -153,8 +162,8 @@ ul.cart-content b {display: block; color: #3498db;}
 .navbar li a:hover {background-color: #428bca!important}
 
 .main-container {background: #fff; padding-top: 20px;}
-
-
+.panel-categories .panel-heading {  border-top: 1px solid #ddd; }
+.panel-categories .panel-heading:first-child {   border-top: 0; }
 
 /* Slider */
 
@@ -168,8 +177,10 @@ ul.cart-content b {display: block; color: #3498db;}
 /* Footer */
 
 footer {background: #313131; color: #eee;}
-footer h4 {border-bottom: 1px solid #5d5d5d; padding: 10px 0 10px 0; }
+footer h4 {border-bottom: 1px solid #5d5d5d; padding: 10px 0 10px 0; font: 20px/22px 'Roya',tahoma;}
 footer .column ul {list-style: none; padding: 0;}
+footer .column a {color: #a09f9f; -webkit-transition: all 3s ease-in; -moz-transition: all 3s; -ms-transition: all 3s; -o-transition: all 3s; transition: all 0.5s;}
+footer .column a:hover {color: #eee; padding-right: 5px;}
 footer .copyright {padding: 10px; color: #ccc;}
 
 .back-top {
