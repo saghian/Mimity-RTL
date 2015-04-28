@@ -72,7 +72,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -132,7 +132,7 @@ p {margin: 0 0 10px 0;}
           font: 24px/22px 'Roya',tahoma;}
 
 
-.thumbnail {border-radius: 0;}
+.thumbnail {border-radius: 0; padding: 4px;}
 .thumbnail:hover {border: 1px solid gray; }
 
 .prod-caption {background: #fbfbfb; border-top: 1px solid #ddd; }
@@ -140,7 +140,7 @@ p {margin: 0 0 10px 0;}
 .btn {border-radius: 0;}
 .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {border-radius: 0;}
 .btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child) {border-radius: 0;}
-
+.form-control { border-radius: 0; box-shadow: none; webkit-box-shadow: none;}
 
 /* Menu */
 
@@ -152,7 +152,7 @@ p {margin: 0 0 10px 0;}
 .header-logotype {font: 24px/22px 'Roya'}
 .Slogan {font-size: 18px;}
 
-.btn-group-cart, .btn {width: 100%}
+.btn-group-cart {width: 100%}
 .btn-cart-text {font: 18px/24px 'Roya' ;padding-right: 5px;}
 .cart-content {}
 ul.cart-content {min-width: 330px; }
@@ -195,3 +195,27 @@ footer .copyright {padding: 10px; color: #ccc;}
   color: #fff;
   height: 23px;
 }
+
+
+
+/* Detail Page */
+
+
+.product-thumb-image { padding: 2px; }
+.product-main-image, .product-thumb-image .thumbnail { margin-bottom: 0; }
+.product-main-image { cursor: zoom-in; cursor: -webkit-zoom-in; cursor: -moz-zoom-in; }
+.well { border-radius: 0; -webkit-box-shadow: none; box-shadow: none; }
+
+.product-short-detail label{ font-weight: normal }
+.product-short-detail .col-xs-8:before{
+	margin-right: 3px;
+	content: ':'
+}
+.the-list { float: right; margin: 10px 0; width: 100%; }
+.the-list select { display: inline; width: auto; }
+.input-qty-detail .bootstrap-touchspin { float: right; width: 130px;}
+
+.product-detail-tab .nav-tabs a:focus, .product-detail-tab .nav-tabs a:active{ outline: 0 }
+.product-detail-tab .well{ border-top: 0; background: #fff; }
+#review .media{ padding-bottom: 10px }
+.product-rating { margin-top: 5px; color: #FFCC00; font-size: 10px;}
