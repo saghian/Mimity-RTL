@@ -1,6 +1,9 @@
 # Mimity-RTL
 Mimity - Online Shop Template
 
+مشاهده دمو آنلاین:
+<a href="http://saghian.ir/Mimity-RTL" target="_blank"> saghian.ir/Mimity-RTL </a>
+
 A simple online shop <br/>
 You can see demo online at the following link : <a href="http://demo.18maret.com/demo/mimity/v1.1" target="_blank"> Live Demo </a>
 <br/>
