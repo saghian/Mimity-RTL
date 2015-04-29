@@ -136,6 +136,8 @@ p {margin: 0 0 10px 0;}
 .thumbnail:hover {border: 1px solid gray; }
 
 .prod-caption {background: #fbfbfb; border-top: 1px solid #ddd; }
+.prod-caption p {max-height: 60px !important; overflow: hidden;}
+.prod-caption h4 {max-height: 20px; overflow: hidden;}
 
 .btn {border-radius: 0;}
 .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {border-radius: 0;}
