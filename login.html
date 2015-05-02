@@ -129,7 +129,7 @@
                         <li><a href="#">تماس با ما</a></li>
                         <li><a href="#">تایپو گرافی</a></li>
                         <li><a href="detail.html">مشاهده یک محصول</a></li>
-                        <li><a href="register.html">ورود</a></li>
+                        <li><a href="login.html">ورود</a></li>
                         <li><a href="register.html">عضویت</a></li>
                     </ul>
                 </li>
@@ -142,105 +142,44 @@
 <div class="container main-container">
     <!-- Body -->
     <div class="row">
-        <!-- Sidebar -->
-        <div class="col-lg-3 col-md-3 col-sm-12">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-                
 
-<!-- Login Form -->
-                <div class="no-padding">
-                    <span class="title">
-                        ورود به فروشگاه
-                    </span>
-                </div>
-                <form role="form">
-                    <div class="form-group">
-                        <div class="input-group login-input">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                            <input type="text" class="form-control" placeholder="نام کاربری">
-                        </div>
-                        <br>
-                        <div class="input-group login-input">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                            <input type="password" class="form-control" placeholder="رمز عبور">
-                        </div>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox"> مرا بخاطر بسپار
-                            </label>
-                        </div>
-                        <button type="submit" class="btn btn-sm btn-primary pull-left">ورود  </button>
-                        <a href="#" class="btn btn-warning btn-sm">بازیابی رمز عبور</a>
-                    </div>
-                </form>
-<!-- Login Form-->
-
-            </div>
             
+        <!-- Login main -->
+        <div class="center-block login-form">
+            <div class="panel panel-default">
+                <div class="panel-heading">فرم ورود</div>
+                <div class="panel-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <div class="input-group login-input">
+                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                <input type="text" class="form-control" placeholder="نام کاربری">
+                            </div>
+                            <br>
+                            <div class="input-group login-input">
+                                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                <input type="password" class="form-control" placeholder="رمز عبور">
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> مرا بخاطر بسپار
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-sm btn-primary pull-left"><i class="fa fa-long-arrow-right"></i> ورود</button>
+                            <br/>
+                            <hr>
+                            <a href="register.html" class="btn btn-success btn-sm pull-left">عضویت</a>
+                            <a href="#" class="btn btn-warning btn-sm">بازیابی رمز عبور</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-    <div class="clearfix visible-sm"></div>
-        <!-- End Sidebar -->
-        
-        <!--main box-->
-        <div class="col-lg-9 col-md-9 col-sm-12">
-            <div class="col-lg-12 col-sm-12">
-                <span class="title">
-                    عضویت
-                </span>
-            </div>
-            <div class="col-lg-12 col-sm-12 hero-feature">
-<!-- Register -->
+        <!-- End Login page -->
 
-            <div class="white-container">
-                    <p>
-    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
-                    </p>
-
-                <!-- Form Register -->
-                <form action="">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <label for="first_name">نام (*)</label>
-                        <input type="text" class="form-control" id="first_name"><br clear="all">
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <label for="last_name">نام خانوادگی (*)</label>
-                        <input type="text" class="form-control" id="last_name"><br clear="all">
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <label for="email">Email (*)</label>
-                        <input type="text" class="form-control" id="email"><br clear="all">
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <label for="username">شماره تلفن همراه (*)</label>
-                        <input type="text" class="form-control" id="username"><br clear="all">
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <label for="password">رمز عبور (*)</label>
-                        <input type="password" class="form-control" id="password"><br clear="all">
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <label for="confirm_password">تکرار رمز عبور (*)</label>
-                        <input type="password" class="form-control" id="confirm_password"><br clear="all">
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox"> ضمن مطالعه <a href="#">قوانین </a>  با تمام موارد موافقم.
-                        </label>
-                    </div>
-                    <button class="btn btn-danger">ثبت نام</button>
-                </form>
-                <!-- End Form Register -->
-            </div>
-
-<!-- End Register -->
-            </div> <!-- col-lg-12 col-sm-12 hero-feature-->
-
-
-        </div> <!-- end main box -->
         
     
-    </div>
+    </div> <!-- row -->
 
     
 
