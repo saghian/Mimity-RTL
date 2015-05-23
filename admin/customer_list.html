@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head lang="fa">
+    <meta charset="UTF-8">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap-rtl.min.css" rel="stylesheet">
+
+    <link href="../assets/css/jquery.bxslider.css" rel="stylesheet">
+        
+    <!-- Custom styles for this template -->
+    <link href="../assets/css/custom.css" rel="stylesheet">
+    
+    <script src="../assets/js/tinymce/tinymce.min.js"></script>
+    
+
+
+    
+    <title>لیست مشتریان</title>
+    
+</head>
+<body>
+
+
+<header>
+    <div class="container margin-top-20 margin-bottom-10">
+        <div class="row">
+            <!-- Logo -->
+            <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+                <div class="header-logotype">
+                    <a href="../index.html">
+                        فروشگاه مجازی
+                    </a>
+                    <div class="Slogan">
+                        لورم ایپسوم متن ساختگی با تولید
+                    </div>
+                </div>
+            </div>
+            <!-- Admin Notofication -->
+            <div class="col-lg-3 col-md-3 hidden-xs pull-left">
+                <div class="admin-top-navbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <i class="glyphicon glyphicon-bell"></i>
+                                    <span class="badge badge-default">
+                                    7 </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <i class="glyphicon glyphicon-envelope"></i>
+                                    <span class="badge badge-default">
+                                    3 </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <i class="glyphicon glyphicon-shopping-cart"></i>
+                                    <span class="badge badge-default">
+                                    59 </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="glyphicon glyphicon-off"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div> <!-- End Admin Notofication -->
+            </div>
+
+            
+            
+        </div> <!-- Row -->
+    </div> <!-- container -->
+</header>
+
+<!-- Navigation -->
+
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <!-- Text Logo on Mobile -->
+        <a href="#" class="navbar-brand visible-xs">
+            فروشگاه مجازی
+        </a>
+        </div>
+        <div class="navbar-collapse navbar-ex1-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="index.html">صفحه اصلی</a>
+                </li>
+                <li class="nav-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                       مدیریت مطالب
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">لیست مطالب</a></li>
+                        <li><a href="#">افزودن مطلب جدید</a></li>
+                    </ul>
+                </li>
+                <li class="nav-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        مدیریت محصولات
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="products-list.html">لیست محصولات</a></li>
+                        <li><a href="add-product.html">افزودن محصول جدید</a></li>
+                        <li><a href="best-selling.html">پرفروش ترین محصول</a></li>
+                        <li><a href="#">پربازدید ترین محصول</a></li>
+                    </ul>
+                </li>
+                <li class="nav-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        مدیریت مشتریان
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="customer_list.html">مشاهده لیست مشتریان</a></li>
+                        <li><a href="add-customer.html">افزودن مشتری جدید</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        
+    </div> <!-- container -->
+</nav> <!-- End Navigation -->
+<div class="container main-container">
+    <!-- Body -->
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+            <span class="title icon-customer-list">
+                    لیست مشتریان
+
+                <button type="button" class="btn btn-primary pull-left collapsed" data-toggle="collapse" data-target="#search" aria-expanded="false">
+                    جستجو پیشرفته
+                </button>
+                    <div class="clearfix"></div>
+            </span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="col-lg-12 col-md-12">
+<div id="search" class="collapse open">
+
+        <div class="col-lg-12 col-md-12 col-sm-12"> <!-- Search Content -->
+            <table class="table table-bordered tbl-checkout">
+                <tbody>
+                    <tr>
+                        <td>
+                            نام 
+                        </td>
+                        <td class="tbl-width-250">
+                            <input type="text" class="form-control">
+                        </td>
+                        <td>
+                            نام خانوادگی
+                        </td>
+                        <td  class="tbl-width-250">
+                            <input type="text" class="form-control">
+                        </td>
+                        <td>
+                           شماره تلفن همراه
+                        </td>
+                        <td  class="tbl-width-250">
+                            <input type="text" class="form-control">
+                        </td>
+                    </tr>
+                </tbody>
+            </table> 
+            <input type="submit" name="btnSearch" value="جستجو" class="btn btn-success pull-left">
+            <br><br>
+            
+        </div> <!-- Search Content -->      
+    </div>
+                
+                <table class="table table-bordered table-hover table-responsive tbl-cart">
+                    <thead>
+                        <tr class="text-center">
+                            <td class="tbl-width-50">
+                                ردیف
+                            </td>
+                            <td class="tbl-width-150">
+                                نام 
+                            </td>
+                            <td class="tbl-width-150">
+                                نام خانوادگی
+                            </td>
+                            <td class="tbl-width-100">
+                                شماره تلفن همراه
+                            </td>
+                            <td class="tbl-width-150">
+                                تاریخ عضویت
+                            </td>
+                            <td class="tbl-width-200">
+                                دستورات
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">1</td>
+                            <td class="text-center"><a href="#" target="blank">محمد رضا</a></td>
+                            <td class="text-center">رضایی</td>
+                            <td class="text-center">09128042106</td>
+                            <td class="text-center">94/02/20</td>
+                            <td class="text-center">
+                                <img src="../assets/images/admin/customer_info.png" data-toggle="tooltip" data-placement="bottom" title="مشاهده اطلاعات مشتری"/>
+                                <img src="../assets/images/admin/customer_edit.png" data-toggle="tooltip" data-placement="bottom" title="ویرایش مشتری"/>
+                                <img src="../assets/images/admin/customer_message.png" data-toggle="tooltip" data-placement="bottom" title="ارسال پیام"/>
+                                <img src="../assets/images/admin/sms.png" data-toggle="tooltip" data-placement="bottom" title="ارسال پیامک"/>
+                                <img src="../assets/images/admin/customer_delete.png" data-toggle="tooltip" data-placement="bottom" title="حذف مشتری"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">2</td>
+                            <td class="text-center"><a href="#" target="blank">محمد رضا</a></td>
+                            <td class="text-center">رضایی</td>
+                            <td class="text-center">09128042106</td>
+                            <td class="text-center">94/02/20</td>
+                            <td class="text-center">
+                                <img src="../assets/images/admin/customer_info.png" data-toggle="tooltip" data-placement="bottom" title="مشاهده اطلاعات مشتری"/>
+                                <img src="../assets/images/admin/customer_edit.png" data-toggle="tooltip" data-placement="bottom" title="ویرایش مشتری"/>
+                                <img src="../assets/images/admin/customer_message.png" data-toggle="tooltip" data-placement="bottom" title="ارسال پیام"/>
+                                <img src="../assets/images/admin/sms.png" data-toggle="tooltip" data-placement="bottom" title="ارسال پیامک"/>
+                                <img src="../assets/images/admin/customer_delete.png" data-toggle="tooltip" data-placement="bottom" title="حذف مشتری"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">3</td>
+                            <td class="text-center"><a href="#" target="blank">محمد رضا</a></td>
+                            <td class="text-center">رضایی</td>
+                            <td class="text-center">09128042106</td>
+                            <td class="text-center">94/02/20</td>
+                            <td class="text-center">
+                                <img src="../assets/images/admin/customer_info.png" data-toggle="tooltip" data-placement="bottom" title="مشاهده اطلاعات مشتری"/>
+                                <img src="../assets/images/admin/customer_edit.png" data-toggle="tooltip" data-placement="bottom" title="ویرایش مشتری"/>
+                                <img src="../assets/images/admin/customer_message.png" data-toggle="tooltip" data-placement="bottom" title="ارسال پیام"/>
+                                <img src="../assets/images/admin/sms.png" data-toggle="tooltip" data-placement="bottom" title="ارسال پیامک"/>
+                                <img src="../assets/images/admin/customer_delete.png" data-toggle="tooltip" data-placement="bottom" title="حذف مشتری"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">4</td>
+                            <td class="text-center"><a href="#" target="blank">محمد رضا</a></td>
+                            <td class="text-center">رضایی</td>
+                            <td class="text-center">09128042106</td>
+                            <td class="text-center">94/02/20</td>
+                            <td class="text-center">
+                                <img src="../assets/images/admin/customer_info.png" data-toggle="tooltip" data-placement="bottom" title="مشاهده اطلاعات مشتری"/>
+                                <img src="../assets/images/admin/customer_edit.png" data-toggle="tooltip" data-placement="bottom" title="ویرایش مشتری"/>
+                                <img src="../assets/images/admin/customer_message.png" data-toggle="tooltip" data-placement="bottom" title="ارسال پیام"/>
+                                <img src="../assets/images/admin/sms.png" data-toggle="tooltip" data-placement="bottom" title="ارسال پیامک"/>
+                                <img src="../assets/images/admin/customer_delete.png" data-toggle="tooltip" data-placement="bottom" title="حذف مشتری"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">5</td>
+                            <td class="text-center"><a href="#" target="blank">محمد رضا</a></td>
+                            <td class="text-center">رضایی</td>
+                            <td class="text-center">09128042106</td>
+                            <td class="text-center">94/02/20</td>
+                            <td class="text-center">
+                                <img src="../assets/images/admin/customer_info.png" data-toggle="tooltip" data-placement="bottom" title="مشاهده اطلاعات مشتری"/>
+                                <img src="../assets/images/admin/customer_edit.png" data-toggle="tooltip" data-placement="bottom" title="ویرایش مشتری"/>
+                                <img src="../assets/images/admin/customer_message.png" data-toggle="tooltip" data-placement="bottom" title="ارسال پیام"/>
+                                <img src="../assets/images/admin/sms.png" data-toggle="tooltip" data-placement="bottom" title="ارسال پیامک"/>
+                                <img src="../assets/images/admin/customer_delete.png" data-toggle="tooltip" data-placement="bottom" title="حذف مشتری"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">6</td>
+                            <td class="text-center"><a href="#" target="blank">محمد رضا</a></td>
+                            <td class="text-center">رضایی</td>
+                            <td class="text-center">09128042106</td>
+                            <td class="text-center">94/02/20</td>
+                            <td class="text-center">
+                                <img src="../assets/images/admin/customer_info.png" data-toggle="tooltip" data-placement="bottom" title="مشاهده اطلاعات مشتری"/>
+                                <img src="../assets/images/admin/customer_edit.png" data-toggle="tooltip" data-placement="bottom" title="ویرایش مشتری"/>
+                                <img src="../assets/images/admin/customer_message.png" data-toggle="tooltip" data-placement="bottom" title="ارسال پیام"/>
+                                <img src="../assets/images/admin/sms.png" data-toggle="tooltip" data-placement="bottom" title="ارسال پیامک"/>
+                                <img src="../assets/images/admin/customer_delete.png" data-toggle="tooltip" data-placement="bottom" title="حذف مشتری"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">7</td>
+                            <td class="text-center"><a href="#" target="blank">محمد رضا</a></td>
+                            <td class="text-center">رضایی</td>
+                            <td class="text-center">09128042106</td>
+                            <td class="text-center">94/02/20</td>
+                            <td class="text-center">
+                                <img src="../assets/images/admin/customer_info.png" data-toggle="tooltip" data-placement="bottom" title="مشاهده اطلاعات مشتری"/>
+                                <img src="../assets/images/admin/customer_edit.png" data-toggle="tooltip" data-placement="bottom" title="ویرایش مشتری"/>
+                                <img src="../assets/images/admin/customer_message.png" data-toggle="tooltip" data-placement="bottom" title="ارسال پیام"/>
+                                <img src="../assets/images/admin/sms.png" data-toggle="tooltip" data-placement="bottom" title="ارسال پیامک"/>
+                                <img src="../assets/images/admin/customer_delete.png" data-toggle="tooltip" data-placement="bottom" title="حذف مشتری"/>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+    </div> <!-- Row -->
+    
+
+    
+    
+    
+    <!-- End Body -->
+</div> <!-- Container -->
+<footer>
+    <div class="container margin-bottom-10">
+        <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="column">
+                <h4>
+                    دسترسی سریع
+                </h4>
+                <ul>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="column">
+                <h4>
+                    دسترسی سریع
+                </h4>
+                <ul>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="column">
+                <h4>
+                    دسترسی سریع
+                </h4>
+                <ul>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="column">
+                <h4>
+                    دسترسی سریع
+                </h4>
+                <ul>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="navbar-inverse text-center copyright">
+        کلیه حقوق محفوظ می باشد.
+    </div>
+</footer>
+<a href="#top" class="back-top text-center" onclick="$('body,html').animate({scrollTop:0},500); return false" style="display: block;">
+    	<i class="glyphicon glyphicon-chevron-up"></i>
+</a>
+
+
+
+
+
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="../assets/js/jquery-1.11.2.min.js"></script>
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="../assets/js/jquery.bxslider.min.js"></script>
+<script src="../assets/js/highcharts.js"></script>
+<script src="../assets/js/mimity.js"></script>
+
+    
+
+</body>
+</html>

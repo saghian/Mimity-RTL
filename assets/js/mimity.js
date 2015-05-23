@@ -90,8 +90,11 @@ $('.slider1').bxSlider({
   slideMargin: 10
 });
 }
-  
-})
+
+
+});
+    // active Tooltip
+    $('[data-toggle="tooltip"]').tooltip();
 
 //$(document).ready(function(){
 //  $('.slider4').bxSlider({

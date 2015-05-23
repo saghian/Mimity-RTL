@@ -144,6 +144,29 @@ p {margin: 0 0 10px 0;}
 .btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child) {border-radius: 0;}
 .form-control { border-radius: 0; box-shadow: none; webkit-box-shadow: none;}
 
+/* Global Table */
+
+.tbl-width-50 {width: 50px;}
+.tbl-width-80 {width: 80px;}
+.tbl-width-100 {width: 100px;}
+.tbl-width-150 {width: 150px;}
+.tbl-width-200 {width: 200px;}
+.tbl-width-250 {width: 250px;}
+
+
+/* Tooltip */
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-color: #449d44; /* black */
+  border-width: 0 5px 5px;
+}
+.tooltip.bottom .tooltip-inner{background-color: #449d44; font: 14px tahoma; padding: 5px 10px 10px 10px;}
+
+
+
 
 /* Menu */
 
@@ -252,7 +275,8 @@ footer .copyright {padding: 10px; color: #ccc;}
 /* Cart Page */
 
 .hero-feature { margin-bottom: 30px; }
-.tbl-cart thead { background: #f8f8f8; }
+/* .table-bordered>tbody>tr>td {padding-bottom: 0;} */
+.tbl-cart thead { background: #f8f8f8; font-weight: bold;}
 .tbl-cart-remove {width: 50px;}
 .tbl-cart-image {width: 65px !important; overflow: hidden;}
 .tbl-cart .td-qty { width: 130px; }
@@ -286,6 +310,33 @@ footer .copyright {padding: 10px; color: #ccc;}
 .login-form .panel{ border: 1px solid #ddd; background-color: #fff; }
 .input-group .form-control:last-child {   border-radius: 0;  box-shadow: none;  webkit-box-shadow: none;}
 .input-group-addon:first-child { border-left: 0; border-right: 1px solid #ccc; border-radius: 0; }
+
+
+
+/* Admin Page */
+
+
+.admin-top-navbar ul li a i {font-size: 20px; color: #337ab7; position: relative;}
+.admin-top-navbar ul li a span {position: absolute; top: 0; left: 0; background-color: #1caf9a;}
+.admin-top-navbar ul li a {padding-top: 0; padding-bottom: 0;}
+
+
+/* Admin Index */
+
+.td-count { white-space: normal !important; width: 30px; }
+
+.icon-product-add {background: url(../images/admin/product_add.png) no-repeat right; padding-right: 40px; padding-bottom: 10px; }
+
+/* Admin Ploduct List Page*/
+.icon-product-list {background: url(../images/admin/ploduct_list.png) no-repeat top right; padding-right: 40px;}
+.tbl-product-list-name {width: 300px !important}
+
+
+
+/* Admin Costomer List */
+
+.icon-customer-list {background: url(../images/admin/customers.png) no-repeat top right; padding-right: 40px; padding-top: 8px;}
+
 
 
 
