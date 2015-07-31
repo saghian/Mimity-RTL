@@ -193,9 +193,10 @@ p {margin: 0 0 10px 0;}
 
 /* Cart */
 
-.cart-item-remove {margin-top: -10px;}
+.cart-item-remove {margin-top: 10px;}
 .cart-item-remove:hover {color: #e74c3c;}
 .cart-remove-box {padding-top: 20px !important;}
+
 
 /*  Index  */
 
