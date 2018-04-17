@@ -1,11 +1,10 @@
 # Mimity-RTL
-Mimity - Online Shop Template
+Mimity is a online shop HTML template.
 
-مشاهده دمو آنلاین:
-<a href="http://saghian.ir/Mimity-RTL" target="_blank"> saghian.ir/Mimity-RTL </a>
+Live demo:
+<a href="http://saghian.ir/demo/mimity-rtl" target="_blank"> saghian.ir/demo/mimity-rtl </a>
 
 A simple online shop <br/>
-You can see demo online at the following link : <a href="http://demo.18maret.com/demo/mimity/v1.1" target="_blank"> Live Demo </a>
-<br/>
+
 read more about all libraries used in this template : <a href="https://wrapbootstrap.com/theme/mimity-online-shop-template-WB094DPGC" target="_blank"> Read more </a>
 
