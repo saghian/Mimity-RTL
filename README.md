@@ -2,7 +2,7 @@
 Mimity is a online shop HTML template.
 
 Live demo:
-<a href="http://saghian.ir/demo/mimity-rtl" target="_blank"> saghian.ir/demo/mimity-rtl </a>
+<a href="http://saghian.ir/demo/mimity-rtl" target="blank"> saghian.ir/demo/mimity-rtl </a>
 
 A simple online shop <br/>
 
