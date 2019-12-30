@@ -2,7 +2,8 @@
 Mimity is a online shop HTML template.
 
 
-A simple online shop <br/>
+A simple online shop.
+
 
 
 
