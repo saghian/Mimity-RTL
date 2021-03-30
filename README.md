@@ -1,5 +1,5 @@
 # Mimity-RTL
-Mimity is a online shop HTML template.
+Mimity-RTL is an online shop HTML template.
 
 
 A simple online shop.
